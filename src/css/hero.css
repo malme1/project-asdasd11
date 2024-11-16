@@ -1,9 +1,13 @@
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+}
+
 body {
     min-width: auto;
 }
+
 .hero {
-    border: 1px solid;
+
     margin: 0 auto;
   
     /* padding-left: 20px;
@@ -17,7 +21,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    min-width: 0;
+    padding: 0 20px;
+    min-width: auto;
+  
 }
 .main-title {
     border: 1px solid;
@@ -32,4 +38,8 @@ body {
 .hero-description {
     border: 1px solid;
     margin-top: 20px;
+}
+.hero-img {
+    margin-top: 28px;
+    border-radius: 50px;
 }
