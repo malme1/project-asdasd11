@@ -1,10 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
-body {
-    min-width: auto;
-}
 
 .hero {
     margin: 0 auto;
@@ -18,7 +11,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 0 20px;
     min-width: auto;
 }
 
@@ -30,10 +22,6 @@ body {
     letter-spacing: -0.02em;
     
 }
-/* .hero-text{
-    padding-left: 20px;
-    padding-right: 20px;
-} */
 
 .hero-description {
     font-size: 14px;
@@ -43,6 +31,7 @@ body {
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
+
 .hero-img {
     margin-top: 28px;
     border-radius: 50px;
@@ -54,6 +43,7 @@ body {
     margin-top: 60px;
     justify-content: space-between;
 }
+
 .hero-reviews {
     display: flex;
     flex-direction: row;
@@ -68,6 +58,7 @@ body {
     position: relative; 
     display: flex; 
 }
+
 .member-pic img{
     display: block; 
     width: 44px;
@@ -75,6 +66,7 @@ body {
     border-radius: 50%; 
     object-fit: cover; 
 }
+
 .member-pic-1 {
     position: relative; 
     z-index: 1; 
@@ -91,6 +83,7 @@ body {
     margin-left: -12px; 
     z-index: 3; 
 }
+
 .scrolling {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
@@ -100,28 +93,30 @@ body {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
+.scrolling:hover {
+    color: #3350e9;
+}
 @media screen and (max-width: 767px) {
     .hero-content{
         flex-direction: column-reverse;
     }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .member-pic img{
+    .member-pic img {
         width: 56px;
         height: 56px;
     } 
+
     .main-tittle {
         font-size: 70px;
         line-height: 0.86;
     }
    
     .hero-tittle {
-        width: 557px;
+        max-width: 557px;
     }
 
     .hero-description {
@@ -130,7 +125,6 @@ body {
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
-        
     }
 
     .hero-reviews {
@@ -142,12 +136,13 @@ body {
         flex-wrap: nowrap;
         margin: 0 0 0 11px;
         align-content: space-between;
-        
     }
+
     .member-pic {
         width: 56px;
         height: 56px;
     }
+
     .scrolling {
         font-size: 20px;
         font-size: 20px;
@@ -157,10 +152,12 @@ body {
         text-decoration-skip-ink: none;
         color: #0c0c0c;
     }
+
     .hero-img {
         margin-top: 40px;
         
     }
+
     .hero-container {
         max-width: 768px;
         padding: 0 32px; 
@@ -171,22 +168,28 @@ body {
     .hero-img {
         margin-top: 40px;
     }
+
     .hero-content {
         max-width: 1150px;
     }
+
     .hero-container {
     padding: 0 65px;
     }
+
     .main-tittle {
         font-size: 72px;
         line-height: 0.88;
     }
+
     .hero-tittle {
         max-width: 597px;
     }
+
     .hero-reviews {
         flex-direction: column;
     }
+
     .hero-description {
         font-weight: 500;
         font-size: 16px;
@@ -194,12 +197,13 @@ body {
         letter-spacing: -0.02em;
         padding-right: 117px;
     }
+
     .scrolling {
         font-weight: 500;
         font-size: 20px;
         line-height: 1;
-
     }
+
     .member-pic img{
         width: 56px;
         height: 56px;
