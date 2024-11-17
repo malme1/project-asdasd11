@@ -8,27 +8,26 @@ body {
 
 .hero {
     margin: 0 auto;
-  
-    /* padding-left: 20px;
-    padding-right: 20px; */
 }
+
 .hero-text-colored {
     color: #3350E9;
 }
-.hero-container {
 
+.hero-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 0 20px;
     min-width: auto;
-  
 }
-.main-title {
+
+.main-tittle {
     font-weight: 600;
     font-size: 40px;
     line-height: 0.95;
     font-family: "Gilroy", sans-serif;
+    letter-spacing: -0.02em;
     
 }
 /* .hero-text{
@@ -39,6 +38,10 @@ body {
 .hero-description {
     font-size: 14px;
     margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
 }
 .hero-img {
     margin-top: 28px;
@@ -49,6 +52,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 60px;
+    justify-content: space-between;
 }
 .hero-reviews {
     display: flex;
@@ -61,31 +65,31 @@ body {
 }
 
 .hero-members {
-    position: relative; /* Контейнер для позиціонування */
-    display: flex; /* Щоб зображення йшли в ряд */
+    position: relative; 
+    display: flex; 
 }
 .member-pic img{
-    display: block; /* Забезпечує правильне вирівнювання */
-    width: clamp(44px, 10vw, 60px);
-    height: clamp(44px, 10vw, 60px);
-    border-radius: 50%; /* Робить зображення круглим */
-    object-fit: cover; /* Гарантує, що зображення правильно обрізається */
+    display: block; 
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    object-fit: cover; 
 }
 .member-pic-1 {
-    position: relative; /* Відносне позиціонування */
-    z-index: 1; /* Задає шар, на якому розташоване зображення */
+    position: relative; 
+    z-index: 1; 
 }
 
 .member-pic-2 {
-    position: relative; /* Відносне позиціонування */
-    margin-left: -12px; /* Накладання на 20% ширини */
-    z-index: 2; /* Це зображення буде поверх іншого */
+    position: relative; 
+    margin-left: -12px; 
+    z-index: 2; 
 }
 
 .member-pic-3 {
-    position: relative; /* Відносне позиціонування */
-    margin-left: -12px; /* Накладання на 20% ширини */
-    z-index: 3; /* Це зображення буде поверх іншого */
+    position: relative; 
+    margin-left: -12px; 
+    z-index: 3; 
 }
 .scrolling {
     font-family: "Gilroy", sans-serif;
@@ -97,29 +101,36 @@ body {
     text-decoration-skip-ink: none;
     color: #0c0c0c;
 }
+
+
 @media screen and (max-width: 767px) {
     .hero-content{
         flex-direction: column-reverse;
     }
 }
-@media screen and (min-width: 768px) {
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .member-pic img{
-        width: clamp(56px, 10vw, 60px);
-        height: clamp(56px, 10vw, 60px);
-}
-    .main-title {
-        
+        width: 56px;
+        height: 56px;
+    } 
+    .main-tittle {
         font-size: 70px;
         line-height: 0.86;
-        letter-spacing: -0.02em;
-        color: #0c0c0c;
     }
-    .hero-reviews {
-        margin: 0 0 0 11px;
-        align-content: space-between;
-    }
+   
     .hero-tittle {
-        max-width: 557px;
+        width: 557px;
+    }
+
+    .hero-description {
+        padding-right: 77px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        
     }
 
     .hero-reviews {
@@ -129,6 +140,8 @@ body {
         justify-content: space-between;
         align-items: flex-end;
         flex-wrap: nowrap;
+        margin: 0 0 0 11px;
+        align-content: space-between;
         
     }
     .member-pic {
@@ -144,4 +157,51 @@ body {
         text-decoration-skip-ink: none;
         color: #0c0c0c;
     }
+    .hero-img {
+        margin-top: 40px;
+        
+    }
+    .hero-container {
+        max-width: 768px;
+        padding: 0 32px; 
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-img {
+        margin-top: 40px;
+    }
+    .hero-content {
+        max-width: 1150px;
+    }
+    .hero-container {
+    padding: 0 65px;
+    }
+    .main-tittle {
+        font-size: 72px;
+        line-height: 0.88;
+    }
+    .hero-tittle {
+        max-width: 597px;
+    }
+    .hero-reviews {
+        flex-direction: column;
+    }
+    .hero-description {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        padding-right: 117px;
+    }
+    .scrolling {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+
+    }
+    .member-pic img{
+        width: 56px;
+        height: 56px;
+    } 
 }
