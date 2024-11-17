@@ -95,9 +95,3 @@ img {
 .header-list-item-text {
   color: #0c0c0c;
 }
-@media screen and (min-width: 1280px) {
-  .social-icons-mobile {
-    background-color: aqua;
-    fill: blueviolet;
-  }
-}
