@@ -6,7 +6,7 @@
   pointer-events: none;
   max-width: 200px;
   height: 100%;
-  background-image: url('/img/bcgr-overlayx1.jpg');
+  background-image: url('/img/img-mobile/bcgr-overlayx1.jpg');
   background-color: rgba(12, 12, 12, 0.92);
 }
 .overlay-mobile-menu.is-open {
@@ -29,6 +29,7 @@
 @media screen and (min-width: 320px) and (min-width: 768px) {
   .overlay-mobile-menu {
     max-width: 330px;
+    background-image: url('../img/img-mobile/bcgr-overlayx2.jpg');
   }
 }
 
