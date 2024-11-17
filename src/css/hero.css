@@ -14,7 +14,7 @@
     min-width: auto;
 }
 
-.main-tittle {
+.main-title {
     font-weight: 600;
     font-size: 40px;
     line-height: 0.95;
@@ -118,12 +118,12 @@
         height: 56px;
     } 
 
-    .main-tittle {
+    .main-title {
         font-size: 70px;
         line-height: 0.86;
     }
    
-    .hero-tittle {
+    .hero-title {
         max-width: 557px;
     }
 
@@ -185,12 +185,12 @@
     padding: 0 65px;
     }
 
-    .main-tittle {
+    .main-title {
         font-size: 72px;
         line-height: 0.88;
     }
 
-    .hero-tittle {
+    .hero-title {
         max-width: 597px;
     }
 
