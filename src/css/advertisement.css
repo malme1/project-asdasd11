@@ -13,12 +13,6 @@
     overflow: hidden;
 }
 
-.advertisement-title {
-    @font-face {
-        font-family: "Gilroy";
-        src: local ("Gilroy"), url(C:\Users\Anwender\Downloads\Gilroy-FREE\Gilroy-Light.woff) format("woff"), url(C:\Users\Anwender\Downloads\Gilroy-FREE\Gilroy-Light.woff2) format("woff2");
-    }
-}
 
 /* Mobile first */
 .advertisement-container {
@@ -26,11 +20,9 @@
     padding: 60px 20px;
 }
 
-/* .advertisement-item
-{
-padding: 60px 28px;
-} */
+
 .advertisement-title {
+    font-family: "Gilroy", sans-serif;
     font-weight: 600px;
     font-size: 32px;
     line-height: 100%;
@@ -39,6 +31,7 @@ padding: 60px 28px;
 }
 
 .advertisement-part {
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 100%;
@@ -68,6 +61,7 @@ padding: 60px 28px;
 
 
 .button-advertisement {
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -131,6 +125,7 @@ padding: 60px 28px;
     }
 
     .advertisement-title {
+        font-family: "Gilroy", sans-serif;
         font-size: 48px;
         line-height: 92%;
         letter-spacing: -0.02em;
@@ -139,6 +134,7 @@ padding: 60px 28px;
     }
 
     .advertisement-part {
+        font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 48px;
         line-height: 92%;
@@ -166,8 +162,9 @@ url(../img/img-desktop/advertisement-desctop-1-2x.png);
             }
         }
     .advertisement-container {
-        max-width: 1150px;
-        padding-left: 80px;
+        max-width: 100%;
+        
+        
     }
 
 
@@ -180,7 +177,8 @@ url(../img/img-desktop/advertisement-desctop-1-2x.png);
 
 
     .advertisement-title {
-       line-height: 92%;
+        font-family: "Gilroy", sans-serif;
+        line-height: 92%;
         letter-spacing: -0.02em;
         color: #fbfbfb;
         margin-bottom: 32px;
