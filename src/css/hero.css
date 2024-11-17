@@ -35,6 +35,8 @@
 .hero-img {
     margin-top: 28px;
     border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .hero-content {
@@ -59,12 +61,18 @@
     display: flex; 
 }
 
+.member-pic {
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .member-pic img{
     display: block; 
     width: 44px;
     height: 44px;
-    border-radius: 50%; 
-    object-fit: cover; 
+    /* border-radius: 50%; 
+    object-fit: cover;  */
 }
 
 .member-pic-1 {
