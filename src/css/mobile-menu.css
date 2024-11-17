@@ -1,3 +1,111 @@
-.mobile-menu{
-    background-color: violet;
+.overlay-mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-width: 200px;
+  height: 100%;
+  background-image: url('/img/bcgr-overlayx1.jpg');
+  background-color: rgba(12, 12, 12, 0.92);
+}
+.overlay-mobile-menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  width: 100%;
+}
+.menu-mobile {
+  padding-top: 240px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media screen and (min-width: 320px) and (min-width: 768px) {
+  .overlay-mobile-menu {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .overlay-mobile-menu {
+    display: none;
+  }
+}
+.btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
+  padding: 8.5px;
+  background-color: #0c0c0c;
+  border: none;
+}
+.svg-close {
+  fill: #fbfbfb;
+}
+.mobile-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+.mobile-menu-text {
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+}
+.mobile-wraper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.mobile-nav-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.social-item-link {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.overlay-nav {
+  margin-bottom: auto;
+}
+.position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.active::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3350e9;
+  display: none;
+  margin-left: 12px;
+}
+.active:hover::after {
+  display: block;
 }
