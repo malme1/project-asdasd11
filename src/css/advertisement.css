@@ -1,3 +1,195 @@
-.advertisement{
-    background-color: red;
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advertisement-title {
+    @font-face {
+        font-family: "Gilroy";
+        src: local ("Gilroy"), url(C:\Users\Anwender\Downloads\Gilroy-FREE\Gilroy-Light.woff) format("woff"), url(C:\Users\Anwender\Downloads\Gilroy-FREE\Gilroy-Light.woff2) format("woff2");
+    }
+}
+
+/* Mobile first */
+.advertisement-container {
+    max-width: 100%;
+    padding: 60px 20px;
+}
+
+/* .advertisement-item
+{
+padding: 60px 28px;
+} */
+.advertisement-title {
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.advertisement-part {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #0c0c0c;
+    background-size: cover;
+    background-image: url(../img/img-mobile/advertisement-mob.png)
+    
+
+}
+
+@media screen and (min-resolution:192dpi) {
+    .advertisement-container {
+        background-image: url(../img/img-mobile/advertisement-mob-2x-1.png);
+
+
+    }
+}
+
+
+.button-advertisement {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    padding: 15px 43px;
+    margin-top: 28px;
+    white-space: nowrap;
+}
+
+/* Mobile adaptive from 375px */
+@media (min-width: 375px) {
+    .advertisement-container {
+        max-width: 100%;
+    }
+}
+
+.advertisement-container {
+    background-color: #0c0c0c;
+    background-image:url(../img/img-mobile/advertisement-mob.png);
+}
+
+@media screen and (min-resolution:192dpi) {
+    .advertisement-container {
+        background-image:
+            url(../img/img-mobile/advertisement-mob-2x-1.png);
+
+    }
+}
+
+/* Tablet from 768px */
+@media (min-width: 768px) {
+    .advertisement-container {
+        max-width: 100%;
+        padding: 80px 64px;
+    }
+
+    .advertisement-container {
+        background-image:
+            url(../img/img-tablet/advertisement-tablet.png);
+    }
+
+    @media screen and (min-resolution:192dpi) {
+        .advertisement-container {
+            background-image:
+                url(../img/img-tablet/advertisement-tablet-2x.png);
+        }
+    }
+
+    .advertisement-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        background-size: cover;
+        background-color: #0c0c0c;
+
+    }
+
+    .advertisement-title {
+        font-size: 48px;
+        line-height: 92%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        margin-bottom: 32px;
+    }
+
+    .advertisement-part {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 92%;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5);
+    }
+}
+
+/* Desktop from 1280px */
+@media (min-width: 1280px) {
+    .advertisement-container {
+        max-width: 100%;
+        padding: 83px 80px;
+    }
+
+.advertisement-container {
+background-image:
+url(../img/img-desktop/advertisement-desctop-1.png);
+        }
+    
+@media screen and (min-resolution:192dpi) {
+.advertisement-container {
+background-image:
+url(../img/img-desktop/advertisement-desctop-1-2x.png);
+            }
+        }
+    .advertisement-container {
+        max-width: 1150px;
+        padding-left: 80px;
+    }
+
+
+    .advertisement-item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+
+
+    .advertisement-title {
+       line-height: 92%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        margin-bottom: 32px;
+    }
+
+    .button-advertisement {
+        display: flex;
+        margin-left: 140px;
+        height: 48px;
+        width: 160px;
+    }
 }
