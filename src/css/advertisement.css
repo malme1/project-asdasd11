@@ -1,4 +1,8 @@
 
+img {
+    display: block;
+    max-width: 100%;
+}
 
 .visually-hidden {
     position: absolute;
@@ -15,12 +19,14 @@
 
 
 /* Mobile first */
-.advertisement-container {
-    max-width: 100%;
+.advertisement {
     padding: 60px 20px;
 }
 
-
+.advertisement-item
+{
+padding: 60px 28px;
+}
 .advertisement-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600px;
@@ -74,12 +80,9 @@
     margin-top: 28px;
     white-space: nowrap;
 }
-
 /* Mobile adaptive from 375px */
 @media (min-width: 375px) {
-    .advertisement-container {
-        max-width: 100%;
-    }
+
 }
 
 .advertisement-container {
@@ -98,10 +101,16 @@
 /* Tablet from 768px */
 @media (min-width: 768px) {
     .advertisement-container {
-        max-width: 100%;
-        padding: 80px 64px;
+        width: 704px;
     }
-
+  .advertisement
+  {
+    padding: 80px 32px;
+  }
+  .advertisement-item
+  {
+   padding: 80px 64px;
+  }
     .advertisement-container {
         background-image:
             url(../img/img-tablet/advertisement-tablet.png);
@@ -146,10 +155,18 @@
 /* Desktop from 1280px */
 @media (min-width: 1280px) {
     .advertisement-container {
-        max-width: 100%;
-        padding: 83px 80px;
+        width: 1150px;
+    
     }
-
+.advertisement
+{
+padding: 100px 65px;
+}
+.advertisement-item
+{
+padding-top: 80px;
+padding-left: 83px;
+}
 .advertisement-container {
 background-image:
 url(../img/img-desktop/advertisement-desctop-1.png);
@@ -161,11 +178,6 @@ background-image:
 url(../img/img-desktop/advertisement-desctop-1-2x.png);
             }
         }
-    .advertisement-container {
-        max-width: 100%;
-        
-        
-    }
 
 
     .advertisement-item {
@@ -181,13 +193,12 @@ url(../img/img-desktop/advertisement-desctop-1-2x.png);
         line-height: 92%;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        margin-bottom: 32px;
     }
 
     .button-advertisement {
-        display: flex;
-        margin-left: 140px;
+        display: block;
         height: 48px;
         width: 160px;
+        margin: 0 auto;
     }
 }
