@@ -71,8 +71,6 @@
     display: block; 
     width: 44px;
     height: 44px;
-    /* border-radius: 50%; 
-    object-fit: cover;  */
 }
 
 .member-pic-1 {
@@ -179,6 +177,7 @@
 
     .hero-content {
         max-width: 1150px;
+        margin-top: 80px;
     }
 
     .hero-container {
@@ -213,7 +212,7 @@
     }
 
     .member-pic img{
-        width: 56px;
-        height: 56px;
+        width: 60px;
+        height: 60px;
     } 
 }
