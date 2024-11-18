@@ -2,7 +2,6 @@
   width: 100%;
 }
 .footer-container {
-  padding-top: 30px;
   padding-bottom: 20px;
 }
 .footer-wrapper {
@@ -147,6 +146,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer-wrapper {
+    padding: 40px 40px 28px;
+  }
+  .footer-container {
+    padding: 0 32px 32px;
+  }
   .footer-top {
     display: flex;
     justify-content: space-between;
@@ -208,9 +213,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer-container {
-    padding: 50px 32px 32px;
-  }
   .footer-slogan-desktop {
     display: block;
   }
