@@ -12,6 +12,7 @@
   flex-direction: column;
   gap: 20px;
   margin-bottom: 100px;
+  height: 1044px;
 }
 
 .contact-us-field {
@@ -127,10 +128,12 @@
 @media screen and (min-width: 768px) {
   .contact-us-title {
     padding: 0;
+    margin-bottom: 40px;
   }
 
   .contact-us-container {
     margin-bottom: 80px;
+    height: 1152px;
   }
 
   .container {
@@ -203,6 +206,7 @@
     flex-direction: row;
     gap: 40px;
     margin-bottom: 100px;
+    height: 556px;
   }
 
   .contact-us-field {
