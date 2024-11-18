@@ -1,6 +1,7 @@
 
 .hero {
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .hero-text-colored {
@@ -42,7 +43,7 @@
 .hero-content {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 60px;
+    padding-top: 60px;
     justify-content: space-between;
 }
 
@@ -168,6 +169,10 @@
         max-width: 768px;
         padding: 0 32px; 
     }
+
+    .hero-content {
+        padding-top: 80px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -177,7 +182,7 @@
 
     .hero-content {
         max-width: 1150px;
-        margin-top: 80px;
+        padding-top: 80px;
     }
 
     .hero-container {
