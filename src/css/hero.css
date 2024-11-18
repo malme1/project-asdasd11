@@ -26,7 +26,7 @@
 
 .hero-description {
     font-size: 14px;
-    margin-top: 20px;
+    padding-top: 20px;
     font-weight: 500;
     line-height: 1.29;
     letter-spacing: -0.02em;
@@ -54,7 +54,7 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    margin-top: 28px;
+    padding-top: 28px;
 }
 
 .hero-members {
@@ -142,6 +142,7 @@
         align-items: flex-end;
         flex-wrap: nowrap;
         margin: 0 0 0 11px;
+        padding-top: 0;
         align-content: space-between;
     }
 
@@ -200,6 +201,7 @@
 
     .hero-reviews {
         flex-direction: column;
+        padding-top: 0;
     }
 
     .hero-description {
