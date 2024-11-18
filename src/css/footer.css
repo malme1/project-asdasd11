@@ -99,7 +99,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 13px;
+  row-gap: 8px;
   column-gap: 16px;
 }
 .footer-nav-link {
