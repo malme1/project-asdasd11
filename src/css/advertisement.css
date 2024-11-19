@@ -165,6 +165,7 @@ padding: 60px 28px;
     }
 
     .advertisement-title {
+    
         font-weight: 600px;
         font-family: "Gilroy", sans-serif;
         font-size: 48px;
@@ -205,11 +206,11 @@ padding-bottom: 50px;
 }
 .advertisement-item
 {
-padding: 83px 65px;
+padding: 83px 80px;
 }
 .advertisement-title 
 {
-margin: 0 auto;
+margin: 0, 0, 0, 0;
 }
 
 .advertisement-container {
