@@ -110,10 +110,10 @@ padding: 60px 28px;
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-        .button-advertisement:hover {
-            background-color: #fbfbfb;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .button-advertisement:hover {
+    background-color: #fbfbfb;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
 .advertisement-container {
@@ -183,17 +183,7 @@ padding: 60px 28px;
         letter-spacing: -0.02em;
         color: rgba(251, 251, 251, 0.5);
     }
-                .button-advertisement:focus {
-                    background-color: #fbfbfb;
-                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                }
-        
-                .button-advertisement:hover {
-                    background-color: #fbfbfb;
-                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                }
+       
 }
 
 /* Desktop from 1280px */
@@ -239,15 +229,5 @@ url(../img/img-desktop/advertisement-desctop-1-@2x.png);
         width: 160px;
         margin-left: 140px;
     }
-                .button-advertisement:focus {
-                    background-color: #fbfbfb;
-                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                }
-        
-                .button-advertisement:hover {
-                    background-color: #fbfbfb;
-                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                }
+ 
 }
