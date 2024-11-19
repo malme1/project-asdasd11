@@ -34,8 +34,8 @@
 }
 
 .hero-img {
-    padding-top: 28px;
-    border-radius: 50px;
+    margin-top: 28px;
+    border-radius: 9%;
     max-width: 100%;
     overflow: hidden;
 }
@@ -162,8 +162,9 @@
     }
 
     .hero-img {
-        padding-top: 40px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);  
+        margin-top: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 50px;  
     }
 
     .hero-container {
@@ -179,6 +180,7 @@
 @media screen and (min-width: 1280px) {
     .hero-img {
         margin-top: 40px;
+        border-radius: 50px;
     }
 
     .hero-content {
