@@ -19,8 +19,9 @@ img {
 
 
 /* Mobile first */
-.advertisement {
-    padding: 60px 20px;
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .advertisement-item
@@ -38,7 +39,7 @@ padding: 60px 28px;
 
 .advertisement-part {
     font-family: "Gilroy", sans-serif;
-    font-weight: 500;
+    font-weight: 600px;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.02em;
@@ -59,7 +60,7 @@ padding: 60px 28px;
 
 @media screen and (min-resolution:192dpi) {
     .advertisement-container {
-        background-image: url(../img/img-mobile/advertisement-mob-2x-1.png);
+        background-image: url(../img/img-mobile/advertisement-mob-@2x-1.png);
 
 
     }
@@ -83,7 +84,6 @@ padding: 60px 28px;
 /* Mobile adaptive from 375px */
 @media (min-width: 375px) {
 
-}
 
 .advertisement-container {
     background-color: #0c0c0c;
@@ -93,19 +93,18 @@ padding: 60px 28px;
 @media screen and (min-resolution:192dpi) {
     .advertisement-container {
         background-image:
-            url(../img/img-mobile/advertisement-mob-2x-1.png);
+            url(../img/img-mobile/advertisement-mob-@2x-1.png);
 
     }
 }
-
+}
 /* Tablet from 768px */
 @media (min-width: 768px) {
-    .advertisement-container {
-        width: 704px;
-    }
-  .advertisement
+
+.container
   {
-    padding: 80px 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .advertisement-item
   {
@@ -119,7 +118,7 @@ padding: 60px 28px;
     @media screen and (min-resolution:192dpi) {
         .advertisement-container {
             background-image:
-                url(../img/img-tablet/advertisement-tablet-2x.png);
+                url(../img/img-tablet/advertisement-tablet-@2x.png);
         }
     }
 
@@ -134,6 +133,7 @@ padding: 60px 28px;
     }
 
     .advertisement-title {
+        font-weight: 600px;
         font-family: "Gilroy", sans-serif;
         font-size: 48px;
         line-height: 92%;
@@ -144,7 +144,7 @@ padding: 60px 28px;
 
     .advertisement-part {
         font-family: "Gilroy", sans-serif;
-        font-weight: 500;
+        font-weight: 600px;
         font-size: 48px;
         line-height: 92%;
         letter-spacing: -0.02em;
@@ -154,18 +154,17 @@ padding: 60px 28px;
 
 /* Desktop from 1280px */
 @media (min-width: 1280px) {
-    .advertisement-container {
-        width: 1150px;
-    
-    }
-.advertisement
+
+.container
 {
-padding: 100px 65px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 .advertisement-item
 {
 padding-top: 80px;
 padding-left: 83px;
+padding-bottom: 80px;
 }
 .advertisement-container {
 background-image:
@@ -175,7 +174,7 @@ url(../img/img-desktop/advertisement-desctop-1.png);
 @media screen and (min-resolution:192dpi) {
 .advertisement-container {
 background-image:
-url(../img/img-desktop/advertisement-desctop-1-2x.png);
+url(../img/img-desktop/advertisement-desctop-1-@2x.png);
             }
         }
 
@@ -187,18 +186,10 @@ url(../img/img-desktop/advertisement-desctop-1-2x.png);
         align-items: baseline;
     }
 
-
-    .advertisement-title {
-        font-family: "Gilroy", sans-serif;
-        line-height: 92%;
-        letter-spacing: -0.02em;
-        color: #fbfbfb;
-    }
-
     .button-advertisement {
         display: block;
         height: 48px;
         width: 160px;
-        margin: 0 auto;
+        margin-left: 140px;
     }
 }
