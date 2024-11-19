@@ -1,6 +1,237 @@
-.contact-us{
-    background-color: blue;
+.contact-us-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.logo-menu{
-    fill: aqua;
+
+.contact-us-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 1044px;
+}
+
+.contact-us-field {
+  border-radius: 30px;
+  width: 335px;
+  background-color: #f3f3f3;
+}
+
+.contact-us-field-container {
+  width: 279px;
+  padding: 48px 28px;
+}
+
+.section-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  width: 279px;
+  margin-bottom: 28px;
+}
+
+.contact-field {
+  margin-bottom: 18px;
+}
+
+.contact-wrapper {
+  position: relative;
+}
+
+.contact-input {
+  width: 100%;
+  height: 42px;
+  padding-left: 14px;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #0c0c0c;
+}
+
+.contact-input:hover,
+.contact-input:focus,
+.contact-textarea:hover,
+.contact-textarea:focus {
+  border-color: #3350e9;
+  outline: none;
+}
+
+.contact-field-container {
+  margin-bottom: 28px;
+}
+
+.contact-textarea {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25;
+  width: 100%;
+  height: 84px;
+  padding: 14px;
+  resize: none;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+
+  background-color: transparent;
+  outline: transparent;
+  box-sizing: border-box;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-textarea::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #0c0c0c;
+}
+
+.contact-us-btn {
+  width: 134px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: #3350e9;
+  border-radius: 16px;
+  padding: 12px 50px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-us-btn:hover,
+.contact-us-btn:focus {
+  background-color: #1f3cd4;
+}
+
+.contact-us-img {
+  border-radius: 30px;
+  width: 335px;
+  height: 512px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .contact-us-title {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .contact-us-container {
+    height: 1152px;
+  }
+
+  .container {
+    padding: 0 32px;
+  }
+
+  .contact-us-field {
+    width: 704px;
+    border-radius: 50px;
+  }
+
+  .contact-us-field-container {
+    width: 704px;
+    padding: 50px 122px;
+  }
+
+  .section-descr {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 460px;
+    margin-bottom: 32px;
+  }
+
+  .contact-input {
+    height: 52px;
+    width: 460px;
+    padding-left: 16px;
+  }
+
+  .contact-input::placeholder,
+  .contact-textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .contact-field-container {
+    margin-bottom: 32px;
+  }
+
+  .contact-textarea {
+    width: 460px;
+    height: 90px;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .contact-us-btn {
+    width: 160px;
+    height: 52px;
+  }
+
+  .contact-us-img {
+    border-radius: 50px;
+    width: 704px;
+    height: 556px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-us-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .contact-us-title {
+    padding: 0;
+  }
+
+  .container {
+    padding: 0 65px;
+  }
+
+  .contact-us-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: 556px;
+  }
+
+  .contact-us-field {
+    width: 580px;
+  }
+
+  .contact-us-field-container {
+    width: 580px;
+    padding: 50px 60px;
+  }
+
+  .contact-us-img {
+    width: 530px;
+    height: 556px;
+  }
 }
