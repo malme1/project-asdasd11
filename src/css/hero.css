@@ -1,3 +1,225 @@
-.hero{
-    background-color: pink;
+
+.hero {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.hero-text-colored {
+    color: #3350E9;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: auto;
+}
+
+.main-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    font-family: "Gilroy", sans-serif;
+    letter-spacing: -0.02em;
+    
+}
+
+.hero-description {
+    font-size: 14px;
+    padding-top: 20px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-img {
+    padding-top: 28px;
+    border-radius: 50px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.hero-reviews {
+    display: flex;
+    flex-direction: row;
+    min-width: 56px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-top: 28px;
+}
+
+.hero-members {
+    position: relative; 
+    display: flex; 
+}
+
+.member-pic {
+    border-radius: 50%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.member-pic img{
+    display: block; 
+    width: 44px;
+    height: 44px;
+}
+
+.member-pic-1 {
+    position: relative; 
+    z-index: 1; 
+}
+
+.member-pic-2 {
+    position: relative; 
+    margin-left: -12px; 
+    z-index: 2; 
+}
+
+.member-pic-3 {
+    position: relative; 
+    margin-left: -12px; 
+    z-index: 3; 
+}
+
+.scrolling {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.scrolling:hover {
+    color: #3350e9;
+}
+@media screen and (max-width: 767px) {
+    .hero-content{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .member-pic img {
+        width: 56px;
+        height: 56px;
+    } 
+
+    .main-title {
+        font-size: 70px;
+        line-height: 0.86;
+    }
+   
+    .hero-title {
+        max-width: 557px;
+    }
+
+    .hero-description {
+        padding-right: 77px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+    }
+
+    .hero-reviews {
+        display: flex;
+        flex-direction: column;
+        min-width: 56px;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        margin: 0 0 0 11px;
+        padding-top: 0;
+        align-content: space-between;
+    }
+
+    .member-pic {
+        width: 56px;
+        height: 56px;
+    }
+
+    .scrolling {
+        font-size: 20px;
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #0c0c0c;
+    }
+
+    .hero-img {
+        padding-top: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);  
+    }
+
+    .hero-container {
+        max-width: 768px;
+        padding: 0 32px; 
+    }
+
+    .hero-content {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-img {
+        margin-top: 40px;
+    }
+
+    .hero-content {
+        max-width: 1150px;
+        padding-top: 80px;
+    }
+
+    .hero-container {
+    padding: 0 65px;
+    }
+
+    .main-title {
+        font-size: 72px;
+        line-height: 0.88;
+    }
+
+    .hero-title {
+        max-width: 597px;
+    }
+
+    .hero-reviews {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .hero-description {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        padding-right: 117px;
+    }
+
+    .scrolling {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .member-pic img{
+        width: 60px;
+        height: 60px;
+    } 
 }
