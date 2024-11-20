@@ -205,6 +205,9 @@
   .overlay-mobile-menu {
     max-width: 330px;
   }
+    .nav-logo {
+      font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -212,7 +215,6 @@
     display: none;
   }
 }
-
 .btn-close {
   position: absolute;
   top: 20px;
