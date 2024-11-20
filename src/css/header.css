@@ -67,7 +67,7 @@
 .nav-link:focus {
   color: #3350e9;
 }
-.nav-link:first-child::after{
+.nav-list-item:first-child .nav-link::after{
 display: block;
 background: #3350e9;
 }
