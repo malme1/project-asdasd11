@@ -86,7 +86,9 @@ background: #3350e9;
   transform-origin: center;
   animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
 }
-
+.menu-link::after{
+  bottom: 0;
+}
 .nav-link.active::after {
   background: #3350e9;
 }
