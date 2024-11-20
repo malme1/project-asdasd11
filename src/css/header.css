@@ -60,7 +60,9 @@
   color: #0c0c0c;
   padding: 20px 0;
 }
-
+.menu-link{
+  padding: 0;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: #3350e9;
