@@ -1,3 +1,164 @@
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  .review-item:nth-child(n+2){
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .review-header {
+    margin-bottom: 40px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1280px){
+  .review-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   }
+
+   .reviews{
+    padding: 50px 0;
+    }
+
+    .review-item {
+      width: calc((100% - 40px) / 3);
+    }
+}   
+
 .reviews{
-    background-color: aqua;
+padding: 30px 0;
+}
+
+.review-header {
+    font-family: "Gilroy";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 24px;
+}
+
+.review-item {
+  background-color: #F3F3F3;
+  border-radius: 30px;
+  padding: 32px 36px; 
+
+  
+}
+
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-subheader {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 8px;
+}
+
+.review-paragraph {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0C0C0C66;
+}
+.review-profile-image {
+  padding-bottom: 24px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px){
+  .review-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+   }
+
+   .reviews{
+    padding: 100px 0;
+    }
+
+    .review-paragraph {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: -0.02em;
+      text-align: center;
+          }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .review-item:nth-child(3) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+    
+  }
+
+  .review-list {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    justify-content: center;
+   }
+
+   .reviews{
+    padding: 100px 0;
+    }
+    
+    .review-paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    }
+
+    .review-header {
+      margin-bottom: 40px;
+    }
+
+    .review-item {
+      width: calc((100% - 16px) / 2);
+    }
 }
