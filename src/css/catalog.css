@@ -1,43 +1,4 @@
-* {
-  box-sizing: border-box;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-ul {
-  list-style: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-button {
-  cursor: pointer;
-  font-family: inherit;
-}
-
-.container-cat {
-  max-width: 335px;
-  margin: 0 auto;
-}
 
 .catalog {
   display: flex;
@@ -61,7 +22,9 @@ button {
   height: 44px;
   gap: 8px;
 }
-
+.catalog-item{
+  width: 100%;
+}
 .content {
   box-sizing: border-box;
   border: 1px solid rgba(12, 12, 12, 0.05);
