@@ -6,6 +6,13 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+@media (max-width: 1279px){
+  .header .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+}
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -84,9 +91,9 @@
 
 .burger-btn {
   padding: 0;
-  position: absolute;
-  right: 0;
-  top: 12px;
+  /* position: absolute; */
+  /* right: 0; */
+  /* top: 12px; */
   width: 34px;
   height: 34px;
   border: none;
