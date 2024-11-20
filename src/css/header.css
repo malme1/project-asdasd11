@@ -115,6 +115,10 @@
 .social-icons-mobile {
   fill: #0c0c0c;
 }
+.social-icons-mobile:hover,
+.social-icons-mobile:focus {
+  fill: #3350e9;
+}
 .mobile-nav-list {
   font-size: 14px;
   line-height: 1.28571;
@@ -128,7 +132,7 @@
 .overlay-mobile-menu {
   position: fixed;
   top: 0;
-  left: 0;
+  right:0;
   opacity: 0;
   pointer-events: none;
   max-width: 200px;
