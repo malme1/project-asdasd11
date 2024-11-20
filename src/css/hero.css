@@ -1,7 +1,6 @@
-
 .hero {
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .hero-text-colored {
@@ -21,7 +20,6 @@
     line-height: 0.95;
     font-family: "Gilroy", sans-serif;
     letter-spacing: -0.02em;
-    
 }
 
 .hero-description {
@@ -58,37 +56,36 @@
 }
 
 .hero-members {
-    position: relative; 
-    display: flex; 
+    position: relative;
+    display: flex;
 }
 
 .member-pic {
     border-radius: 50%;
-    max-width: 100%;
     overflow: hidden;
 }
 
-.member-pic img{
-    display: block; 
+.member-pic img {
+    display: block;
     width: 44px;
     height: 44px;
 }
 
 .member-pic-1 {
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
+    margin-right: -11px;
 }
 
 .member-pic-2 {
-    position: relative; 
-    margin-left: -12px; 
-    z-index: 2; 
+    position: relative;
+    z-index: 2;
 }
 
 .member-pic-3 {
-    position: relative; 
-    margin-left: -12px; 
-    z-index: 3; 
+    position: relative;
+    margin-left: -13px;
+    z-index: 3;
 }
 
 .scrolling {
@@ -99,29 +96,35 @@
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #0c0c0c;
+    color: #0C0C0C;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .scrolling:hover {
-    color: #3350e9;
+    color: #3350E9;
 }
+
 @media screen and (max-width: 767px) {
-    .hero-content{
+    .hero-content {
         flex-direction: column-reverse;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero {
+        padding-bottom: 40px;
+    }
+
     .member-pic img {
         width: 56px;
         height: 56px;
-    } 
+    }
 
     .main-title {
         font-size: 70px;
         line-height: 0.86;
     }
-   
+
     .hero-title {
         max-width: 557px;
     }
@@ -146,9 +149,16 @@
         align-content: space-between;
     }
 
-    .member-pic {
-        width: 56px;
-        height: 56px;
+    .member-pic-1 {
+        position: relative;
+        z-index: 1;
+        margin-right: -15px;
+    }
+
+    .member-pic-3 {
+        position: relative;
+        margin-left: -17px;
+        z-index: 3;
     }
 
     .scrolling {
@@ -158,21 +168,22 @@
         letter-spacing: -0.02em;
         text-decoration: underline;
         text-decoration-skip-ink: none;
-        color: #0c0c0c;
+        color: #0C0C0C;
     }
 
     .hero-img {
         margin-top: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        border-radius: 50px;  
+        border-radius: 50px;
     }
+
     .hero-img img {
         transform: translate(0%, 1%) scale(1.025);
     }
 
     .hero-container {
         max-width: 768px;
-        padding: 0 32px; 
+        padding: 0 32px;
     }
 
     .hero-content {
@@ -181,6 +192,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hero {
+        padding-bottom: 50px;
+    }
+
     .hero-img {
         margin-top: 40px;
         border-radius: 50px;
@@ -192,7 +207,7 @@
     }
 
     .hero-container {
-    padding: 0 65px;
+        padding: 0 65px;
     }
 
     .main-title {
@@ -223,8 +238,16 @@
         line-height: 1;
     }
 
-    .member-pic img{
+    .member-pic img {
         width: 60px;
         height: 60px;
-    } 
+    }
+
+    .member-pic-1 {
+        margin-right: -16px;
+    }
+
+    .member-pic-3 {
+        margin-left: -18px;
+    }
 }
