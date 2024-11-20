@@ -1,5 +1,4 @@
 .header {
-  padding: 20px 0;
   border-bottom: 1px solid #b4afaf;
 }
 .header .header-container{
@@ -59,6 +58,7 @@
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
   color: #0c0c0c;
+  padding: 20px 0;
 }
 
 .nav-link:hover,
@@ -69,7 +69,7 @@
 .nav-link::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 18px;
   left: 50%;
   transform: translateX(-50%) translateY(100%);
   width: 8px;
