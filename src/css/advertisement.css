@@ -200,7 +200,7 @@ padding: 83px 80px;
 }
 .advertisement-title 
 {
-margin: 0, 0, 0, 0;
+margin-bottom: 0px;
 }
 
 .advertisement-container {
@@ -228,6 +228,7 @@ url(../img/img-desktop/advertisement-desctop-1-@2x.png);
         height: 48px;
         width: 160px;
         margin-left: 140px;
+        margin-top: 0;
     }
  
 }
