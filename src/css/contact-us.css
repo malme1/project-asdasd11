@@ -16,17 +16,14 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 1044px;
 }
 
 .contact-us-field {
   border-radius: 30px;
-  width: 335px;
   background-color: #f3f3f3;
 }
 
 .contact-us-field-container {
-  width: 279px;
   padding: 48px 28px;
 }
 
@@ -35,7 +32,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  width: 279px;
   margin-bottom: 28px;
 }
 
