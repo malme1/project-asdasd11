@@ -1,3 +1,6 @@
+.advertisement{
+padding: 30px 20px;
+}
 
 img {
     display: block;
@@ -24,10 +27,7 @@ margin: 0, 0, 0, 0;
 
 /* Mobile first */
 
-.container {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
 
 .advertisement-item
 {
@@ -62,7 +62,8 @@ padding: 60px 28px;
     background-size: cover;
     background-image: url(../img/img-mobile/advertisement-mob.png);
     margin: 0, auto;
-    
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
@@ -143,12 +144,9 @@ padding: 60px 28px;
 }
 /* Tablet from 768px */
 @media (min-width: 768px) {
-
-.container
-  {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+    .advertisement {
+        padding: 40px 32px;
+        }
 
   .button-advertisement {
       padding: 15px 43px;
@@ -205,12 +203,10 @@ padding: 60px 28px;
 
 /* Desktop from 1280px */
 @media (min-width: 1280px) {
+    .advertisement {
+            padding: 50px 65px;
+        }
 
-.container
-{
-padding-top: 50px;
-padding-bottom: 50px;
-}
 .advertisement-item
 {
 padding: 83px 80px;
