@@ -1,45 +1,249 @@
 .header {
   padding: 20px 0;
-  background-color: green;
+  background-color: whitesmoke;
 }
-.nav {
+
+.header-nav {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  align-items: center;
 }
+
 .nav-logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 90px;
+  height: 19px;
+  color: #0c0c0c;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.41px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding: 0;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 40px;
 }
+
+@media screen and (max-width: 1280px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+.nav-list-item {
+  color: #0c0c0c;
+}
+
 .nav-link {
   position: relative;
   display: block;
   font-weight: 500;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
+  color: #0c0c0c;
 }
+
 .nav-link:hover,
 .nav-link:focus {
-  color: #747bff;
+  color: #3350e9;
 }
+
 .nav-link::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  margin-left: 0;
+  display: none;
+  border-radius: 50%;
   transform-origin: center;
   animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
 }
+
 .nav-link.active::after {
-  background: #747bff;
+  background: #3350e9;
+}
+
+.active:hover::after {
+  display: block;
+}
+
+.burger-btn {
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+  fill: #0c0c0c;
+}
+
+@media screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
+.burger-icon {
+  display: block;
+  width: 100%;
+  stroke-width: 0;
+  stroke: currentColor;
+  margin: 12.04 4.25;
+}
+
+.social-item-link {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.mobile-nav-social {
+  display: none;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons-mobile {
+  fill: #0c0c0c;
+}
+
+.social-icons-mobile:hover,
+.social-icons-mobile:focus {
+  fill: #3350e9;
+}
+
+.mobile-nav-list {
+  font-size: 14px;
+  line-height: 1.28571;
+}
+
+@media screen and (min-width: 1280px) {
+  .mobile-nav-social {
+    display: flex;
+  }
+}
+
+.overlay-mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-width: 200px;
+  height: 100%;
+  background-image: url('/img/img-mobile/bcgr-overlay.jpg');
+  background-color: rgba(12, 12, 12, 0.92);
+
+}
+
+@media (min-resolution: 192dpi) {
+  .overlay-mobile-menu {
+    background-image: url('/img/img-mobile/bcgr-overlay@2x.jpg');
+  }
+}
+
+.overlay-mobile-menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  width: 100%;
+}
+
+.menu-mobile {
+  padding-top: 240px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu-mobile .container {
+  display: flex;
+}
+
+@media screen and (min-width: 320px) {
+  .overlay-mobile-menu {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .overlay-mobile-menu {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .overlay-mobile-menu {
+    display: none;
+  }
+}
+
+.btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
+  padding: 8.5px;
+  background-color: #0c0c0c;
+  border: none;
+  color: #fbfbfb;
+}
+
+.svg-close {
+  fill: #fbfbfb;
+}
+
+.color {
+  color: #fbfbfb;
+}
+
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.overlay-color {
+  fill: #fbfbfb;
+}
+
+.mobile-nav-social-overlay {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
