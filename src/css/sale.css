@@ -1,39 +1,9 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 /* --------------------SALE----------------- */
 
 .sale {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .sale-title {
@@ -159,10 +129,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 0 32px;
-  }
-
+.sale {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
   .sale-title {
     font-size: 48px;
     margin-bottom: 40px;
@@ -230,8 +200,9 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding: 0 65px;
+.sale {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .section-wrapper {
