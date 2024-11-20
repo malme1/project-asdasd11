@@ -46,8 +46,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 279px;
-  height: 262px;
+  width: 100%;
+  height: 100%;
+  padding: 23px 27px;
 }
 
 .resp-image {
@@ -114,10 +115,9 @@
     margin-bottom: 40px;
   }
 
-  .picture {
-    width: 280px;
-    height: 312px;
-  }
+    .picture {
+      padding: 23px 31px;
+    }
 
   .catalog-name {
     max-width: 280px;
