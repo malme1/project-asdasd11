@@ -95,7 +95,7 @@
   background-color: #1f3cd4;
 }
 
-#catalog-item-hiden {
+.catalog-item-hiden {
   display: none;
 }
 
@@ -147,7 +147,7 @@
   .button-class {
     display: none;
   }
-  #catalog-item-hiden {
+  .catalog-item-hiden {
     display: block;
   }
 }
