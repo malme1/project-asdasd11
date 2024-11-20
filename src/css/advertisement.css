@@ -36,12 +36,12 @@ padding: 60px 28px;
 }
 .advertisement-title {
     font-family: "Gilroy", sans-serif;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin: 0, auto;
+    margin-bottom: 28px;
 }
 
 .advertisement-part {
@@ -184,13 +184,13 @@ padding: 60px 28px;
 
     .advertisement-title {
     
-        font-weight: 600px;
+        font-weight: 600;
         font-family: "Gilroy", sans-serif;
         font-size: 48px;
         line-height: 92%;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        margin: 0, auto;
+        margin-bottom: 32px;
     }
 
     .advertisement-part {
