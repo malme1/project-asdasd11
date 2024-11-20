@@ -1,5 +1,5 @@
 .advertisement{
-padding: 30px 20px;
+padding: 30px 0px;
 }
 
 img {
@@ -64,6 +64,8 @@ padding: 60px 28px;
     margin: 0, auto;
     padding-left: 0;
     padding-right: 0;
+    max-width: 335px;
+    padding: 0;
 
 }
 
@@ -145,7 +147,7 @@ padding: 60px 28px;
 /* Tablet from 768px */
 @media (min-width: 768px) {
     .advertisement {
-        padding: 40px 32px;
+        padding: 40px 0px;
         }
 
   .button-advertisement {
@@ -176,6 +178,7 @@ padding: 60px 28px;
         border-radius: 30px;
         background-size: cover;
         background-color: #0c0c0c;
+        max-width: 704px;
 
     }
 
@@ -204,7 +207,7 @@ padding: 60px 28px;
 /* Desktop from 1280px */
 @media (min-width: 1280px) {
     .advertisement {
-            padding: 50px 65px;
+            padding: 50px 0px;
         }
 
 .advertisement-item
@@ -219,6 +222,7 @@ margin-bottom: 0px;
 .advertisement-container {
 background-image:
 url(../img/img-desktop/advertisement-desctop-1.png);
+max-width: 1150px;
         }
     
 @media screen and (min-resolution:192dpi) {
