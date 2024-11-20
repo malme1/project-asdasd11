@@ -140,7 +140,7 @@
     }
 
     .abt-text-container {
-        flex-basis: ((100% - 40px)/2);
+        flex-basis: calc((100% - 40px) / 2);
         height: 532px;
 
     }

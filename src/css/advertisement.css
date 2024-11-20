@@ -21,7 +21,7 @@ img {
 }
 p 
 {
-margin: 0, 0, 0, 0;
+margin: 0;
 }
 
 
@@ -46,7 +46,7 @@ padding: 60px 28px;
 
 .advertisement-part {
     font-family: "Gilroy", sans-serif;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.02em;
@@ -61,7 +61,7 @@ padding: 60px 28px;
     background-color: #0c0c0c;
     background-size: cover;
     background-image: url(../img/img-mobile/advertisement-mob.png);
-    margin: 0, auto;
+    margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
     max-width: 335px;
@@ -195,7 +195,7 @@ padding: 60px 28px;
 
     .advertisement-part {
         font-family: "Gilroy", sans-serif;
-        font-weight: 600px;
+        font-weight: 600;
         font-size: 48px;
         line-height: 92%;
         letter-spacing: -0.02em;
