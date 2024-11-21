@@ -85,7 +85,7 @@ background: #3350e9;
 .nav-link::after {
   content: '';
   position: absolute;
-  bottom: 18px;
+  bottom: 38px;
   left: 50%;
   transform: translateX(-50%) translateY(100%);
   width: 8px;
