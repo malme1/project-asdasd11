@@ -224,6 +224,10 @@ background: #3350e9;
     .nav-logo {
       font-size: 20px;
   }
+    .nav-logo {
+      width: 112px;
+
+    }
 }
 
 @media screen and (min-width: 1280px) {
