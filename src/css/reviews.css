@@ -114,7 +114,10 @@ padding: 30px 0;
       letter-spacing: -0.02em;
       text-align: center;
           }
-
+ .review-header {
+   margin-bottom: 40px;
+   font-size: 48px;
+ }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
