@@ -4,7 +4,7 @@
 
 .contact-us-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 0.92;
   letter-spacing: -0.02em;
   padding: 0;
@@ -133,6 +133,7 @@
   .contact-us-title {
     padding: 0;
     margin-bottom: 40px;
+    font-size: 48px;
   }
 
   .contact-us-container {
@@ -202,10 +203,7 @@
 
   .contact-us-title {
     padding: 0;
-  }
 
-  .container {
-    padding: 0 65px;
   }
 
   .contact-us-container {
