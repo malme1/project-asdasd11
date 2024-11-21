@@ -206,14 +206,17 @@
 
   }
 
-    .contact-us-section .contact-us-container {
+    .contact-us-container {
     display: flex;
     flex-direction: row;
     gap: 40px;
     height: 556px;
-    padding: 0 65px;
+   
   }
 
+            .contact-us-section .container {
+              padding: 0 65px;
+            }
   .contact-us-field {
     width: 580px;
   }
